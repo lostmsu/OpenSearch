@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Hardcoded</ShortName>
+  <Description>Search among the list of hardcoded items</Description>
+  <Tags>example web</Tags>
+  <Contact>admin@example.com</Contact>
+  <Url type="application/rss+xml"
+       template="http://localhost:1988/search?q={searchTerms}&amp;pw={startPage?}&amp;format=rss"/>
+</OpenSearchDescription>
